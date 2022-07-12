@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "f76324fd-65bb-4a09-a321-43787c6580e5",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21820508"
+	},
+	"item": [
+		{
+			"name": "Busca por Nome",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n      \"Nome\" : \"Puro Malte\",\n      \"Ingrediente\": \"Malte, agua, lupulo\",\n      \"Preco\" : \"R$ 711,00\"\n\n}\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/cervejas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cervejas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buscar todas as cervejas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n      \"Nome\" : \"Puro Malte\",\n      \"Ingrediente\": \"Malte, agua, lupulo\",\n      \"Preco\" : \"R$ 711,00\"\n\n}\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/cervejas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cervejas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Criar Cerveja",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n      \"Nome\" : \"Puro Malte\",\n      \"Ingrediente\": \"Malte, agua, lupulo\",\n      \"Preco\" : \"R$ 711,00\"\n\n}\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/cervejas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cervejas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Deleta Cerveja",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n      \"Nome\" : \"Puro Malte\",\n      \"Ingrediente\": \"Malte, agua, lupulo\",\n      \"Preco\" : \"R$ 711,00\"\n\n}\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/cervejas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cervejas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edita Cerveja",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n      \"Nome\" : \"Puro Malte\",\n      \"Ingrediente\": \"Malte, agua, lupulo\",\n      \"Preco\" : \"R$ 711,00\"\n\n}\n"
+				},
+				"url": {
+					"raw": "http://localhost:8080/cervejas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cervejas"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
